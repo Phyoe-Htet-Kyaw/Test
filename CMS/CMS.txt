@@ -1,0 +1,65 @@
+CMS - Content Management System (DBMS)
+======================================
+
+Phase - 1
+Blog
+Category
+Tags
+User
+
+Phase - 2
+Like
+Comment
+
+-----------------------------------------
+Tables
+======
+tbl_blogs
+---------
+- id			(primary key)
+- title
+- description
+- user_id		(foreign key)
+- photo
+- category_id		(foreign key)
+- tag_id		(foreign key)
+- created_at
+- updated_at
+- deleted_at
+
+tbl_categories
+---------
+- id			(primary key)
+- name
+- created_at
+- updated_at
+- deleted_at
+
+tbl_tags
+---------
+- id			(primary key)
+- name
+- created_at
+- updated_at
+- deleted_at
+
+tbl_users
+---------
+- id			(primary key)
+- name
+- photo
+- email
+- password
+- created_at
+- updated_at
+- deleted_at
+
+
+
+
+Notes:
+- Create database
+- create project file base system
+- CRUD of category
+- CRUD of tags
+(1hr15mins)
